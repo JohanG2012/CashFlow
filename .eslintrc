@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react", "jest"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "jest/globals": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "allowForLoopAfterthoughts": 0,
+    "no-console": 0,
+    "strict": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
