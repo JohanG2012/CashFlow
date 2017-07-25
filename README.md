@@ -18,6 +18,7 @@ An Web App built with love and:
   * MongoDB
   * Mongoose
 * Dev Environment
+  * WebPack
   * Testing
     * Jest
     * Enzyme
