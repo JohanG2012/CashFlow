@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import WebFont from 'webfontloader';
-import App from './App.jsx';
+import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import configureStore from './stores/configureStore';
 
