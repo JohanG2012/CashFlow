@@ -21,7 +21,8 @@ const isLocalhost = Boolean(
 function registerValidSW(swUrl) {
   navigator.serviceWorker
     .register(swUrl)
-    .then((registration) => {
+    .then((reg) => {
+      const registration = reg;
       registration.onupdatefound = () => {
         const installingWorker = registration.installing;
         installingWorker.onstatechange = () => {
