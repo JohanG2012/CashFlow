@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import BackgroundSidebar from './components/BackgroundSidebar/';
-import TopBar from './TopBar';
+import TopBar from './components/TopBar/';
 import slideToSidebar from './actions/slideToSidebar';
 
 const propTypes = {
