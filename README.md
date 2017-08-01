@@ -7,8 +7,11 @@ An Web App built with love and:
     * ReactDOM
     * PropTypes
     * create-react-app
-    * Styled Components
     * React-router
+    * react-fontawesome
+  * Styled Components
+  * Polished
+  * WebFontLoader
   * Redux
     * React-redux
     * redux-thunk
